@@ -84,7 +84,7 @@ const UsersPage = () => {
 
                 <label>
                     <span>add website</span>
-                    <input type="text" placeholder={"website"}  {...register("website", {required: true})}/>
+                    <input type="text" placeholder={"website"}  {...register("website")}/>
                 </label>
 
                 <button onClick={createName}>create</button>
